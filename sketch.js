@@ -78,7 +78,7 @@ function draw() {
 
   text(myWord4, 300 , 400);
 
-  let wordIndex5 = 2*second() % word5.length;
+  let wordIndex5 = second() % word5.length;
   let myWord5 = word5[wordIndex5];
 
   text(myWord5, 100 , 600);
